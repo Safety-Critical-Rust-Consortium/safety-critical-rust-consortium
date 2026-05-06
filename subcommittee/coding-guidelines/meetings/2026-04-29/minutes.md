@@ -21,7 +21,7 @@
    - MISRA C one has a [PR up](https://github.com/rustfoundation/safety-critical-rust-coding-guidelines/pull/432) from Markus  
 6. Interest in the MISRA C++ mapping  
    - Please register interest on [this Zulip thread](https://rust-lang.zulipchat.com/#narrow/channel/579369-safety-critical-consortium.2Fcoding-guidelines/topic/MISRA.20C.2B.2B.20Mapping.20Interest/with/584764785)  
-   - Pete/Alex/Joel are working out how we can have some kind of copy of the MISRA documents (C, C++) held in the jurisdiction of the Rust Foundation in support of members to be able to work on coding guidelines  
+   - Pete/Alex are working out how we can have some kind of copy of the MISRA documents (C, C++) held in the jurisdiction of the Rust Foundation in support of members to be able to work on coding guidelines  
 7. Overview of [Safety-Critical Rust](https://rust-lang.github.io/rust-project-goals/2026/roadmap-safety-critical-rust.html) \- Rust Project Goals Roadmap (Pete)  
    - Soliciting those interested in [Establish a Spot for Safety-Critical Lints in Clippy](https://rust-lang.github.io/rust-project-goals/2026/safety-critical-lints-in-clippy.html) goal  
      * Register interest [here](https://rust-lang.zulipchat.com/#narrow/channel/445688-safety-critical-consortium/topic/Getting.20involved.20with.20Clippy.20for.20SCRC.20lints/with/583090116) on Rust Zulip  
@@ -35,20 +35,15 @@
 
 **Please add your name, and an emoji that describes your day.**
 
-* xx
-* xx
-* xx
-* xx
-* xx
-* xx
-* xx
-* xx
-* xx
-* xx
+* Jonatan Hatakeyama Zeidler 🤖  
+* Oreste Bernardi 🫥  
+* Pete LeVasseur ✌️  
+* Max Jacinto 🏹  
+* Alex Celeste 😴
 
 **Notetaker:**
 
-* xx
+* Jonatan Hatakeyama Zeidler
 
 For tips on how we take notes in the Safety-Critical Rust Consortium, please see the [Meeting Notetaker Role](https://github.com/rustfoundation/safety-critical-rust-consortium/blob/main/docs/notetaker-role.md) doc.
 
@@ -62,11 +57,26 @@ For tips on how we take notes in the Safety-Critical Rust Consortium, please see
 
 ## **Tasks**
 
-* xx
+* Pete: Follow up with Markus on Coverage of MISRA C and CERT C in 2026  
+* Pete: Reach out to someone from MISRA and talk with them about the concrete use case of a copy of MISRA C++
 
 ## **Meeting Minutes**
 
-* xx
+* Previous meeting minutes accepted  
+* Max reported that he doesn’t have a copy of MISRA C++, yet  
+* A question came up about whether there is a planned start date for the MISRA C++ mapping, conclusion: no fixed start or end date, just that prerequisites need to be resolved and then we can start  
+* Everybody is invited to join any of the Project Goal efforts via Zulip discussion  
+* The pipeline from the operational semantics team \-\> reference updated \-\> FLS will likely take them some time. In the meantime we want to be practical with getting normative documentation updated.
+
+
+**Notes on CERT C Review Batch 1 of 5**
+
+* PR31: It seems to apply indeed, because it seems to be conceptually the same in C and Rust. Even the current note seems to confirm that. Proposed advisory see [https://github.com/Safety-Critical-Rust-Consomay need to be mappedrtium/safety-critical-rust-coding-guidelines/issues/557](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/557)  
+* EXP30: It isn’t UB indeed, but we should probably still keep this rule as applicable, because there is still good reason to avoid this to prevent misleading the reader of code.  
+* EXP32: There is read\_volatile and write\_volatile, which are unsafe. So this still applies in unsafe contexts.  
+* ARR39: It seems to be applicable when using the offset API. So we should map it. See [https://doc.rust-lang.org/std/primitive.pointer.html\#method.offset](https://doc.rust-lang.org/std/primitive.pointer.html#method.offset)   
+* FIO32: We think that this could apply, because this is not a problem of the language, but the OS. See also [https://doc.rust-lang.org/std/os/unix/io/index.html\#procselfmem-and-similar-os-features](https://doc.rust-lang.org/std/os/unix/io/index.html#procselfmem-and-similar-os-features)   
+* FIO46: We agree it does not apply.
 
 ## **Material**
 
