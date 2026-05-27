@@ -69,4 +69,5 @@
 | Jason Newcomb              | Rust Project - Clippy Team             | Producer                    | @Jarcho            |
 | Raiki Tamura               | Individual                             | Observer                    | @tamaroning        |
 | Michael Henn               | Hensoldt                               | Observer                    | @mhennsldt         |
+| Mira Baumann               | Individual                             | Producer                    | @inkreasing        |
 
