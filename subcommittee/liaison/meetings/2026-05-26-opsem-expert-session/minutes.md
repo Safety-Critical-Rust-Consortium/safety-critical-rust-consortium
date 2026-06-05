@@ -72,7 +72,7 @@ Mini Rust talk given at last year’s RustWeek 2025
 
 * [MiniRust: A core language for specifying Rust \- Ralf Jung](https://www.youtube.com/watch?v=yoeuW_dSe0o)
 
-Some Operational Semantics Concerns are outside of Rust
+Making progress on some OpSem questions requires stakeholders outside the Rust project.
 
 * E.g. make sure that LLVM does the right thing  
 * Mapping same memory into multiple address spaces kicks out a potentially large number of optimizations that LLVM does
@@ -81,7 +81,7 @@ Some Operational Semantics Concerns are outside of Rust
 
 * Written in Rust  
 * Going to safety-certify  
-* Working to understand the Rust reference and the standard library docs to make sure know how to rest a safety argument
+* Working to understand the Rust reference and the standard library docs to make sure we know how to rest a safety argument on normative documentation
 
 Shared memory, for example, seems challenging to describe accurately via the Rust Abstract Machine
 
