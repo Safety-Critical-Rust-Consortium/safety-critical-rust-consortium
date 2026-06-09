@@ -29,9 +29,6 @@
   - Wednesday, June 3 · 11:30am – 12:00pm  
   - Time zone: America/New\_York  
   - Google Meet joining info  
-  - Video call link: [https://meet.google.com/nkk-vtrw-zyt](https://meet.google.com/nkk-vtrw-zyt)   
-  - Or dial: ‪(US) \+1 985-297-5768‬ PIN: ‪536 959 499‬\#  
-  - More phone numbers: [https://tel.meet/nkk-vtrw-zyt?pin=3247761594273](https://tel.meet/nkk-vtrw-zyt?pin=3247761594273)  
     1. Achim  
     2. Daniel Dia  
     3. Kaneko Satoshi  
@@ -41,9 +38,6 @@
   - Wednesday, June 3 · 11:30am – 12:00pm  
   - Time zone: America/New\_York  
   - Google Meet joining info  
-  - Video call link: [https://meet.google.com/yvr-gohr-mkp](https://meet.google.com/yvr-gohr-mkp)   
-  - Or dial: ‪(US) \+1 908-481-5395‬ PIN: ‪425 031 649‬\#  
-  - More phone numbers: [https://tel.meet/yvr-gohr-mkp?pin=6394059217923](https://tel.meet/yvr-gohr-mkp?pin=6394059217923)  
     1. Max  
     2. Michael  
     3. Mira  
