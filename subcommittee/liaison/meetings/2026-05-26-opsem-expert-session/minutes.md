@@ -114,7 +114,7 @@ What is the “trust relationship” in entities among iceoryx2?
 Hard problems in opsem
 
 * Two processes which do not trust each other, how can they share data  
-* Not LLVM clear way of going about this  
+* No clear way of going about this on the LLVM side
 * Let alone when it comes to how to specify this in the Rust Abstract Machine  
 * If possible for only one “side” to mutate at a time, then picture changes
 
