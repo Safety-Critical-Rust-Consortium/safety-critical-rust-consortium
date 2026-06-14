@@ -116,7 +116,7 @@ Hard problems in opsem
 * Two processes which do not trust each other, how can they share data  
 * No clear way of going about this on the LLVM side
 * Let alone when it comes to how to specify this in the Rust Abstract Machine  
-* If possible for only one “side” to mutate at a time, then picture changes
+* An important detail is that what simplifies things is if it follows the aliasing XOR mutation discipline is upheld: either only one side can mutate *while nobody else can even read*, or everybody can only read.
 
 Want to ensure that iceoryx2 takes care of some of the complications
 
