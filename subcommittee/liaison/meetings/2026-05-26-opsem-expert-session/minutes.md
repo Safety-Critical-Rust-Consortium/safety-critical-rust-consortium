@@ -175,7 +175,7 @@ Rust Abstract Machine
   * There is a crate someone wrote with uses inline assembly (least incorrect way of doing this, since it hides as much information from the compiler as possible)  
   * No reason it cannot exist, but someone would need to do the work to specify this and   
   * Load and store are possible, but nothing barring from doing this from an opsem perspective  
-  * Compare and Swap doesn’t make sense with initialized memory
+  * Compare and Swap doesn’t make sense with uninitialized memory
 
 ### Feedback on 6: Sequence Locks
 
