@@ -11,54 +11,35 @@
 ## **Agenda**
 
 1. Solicitation of notetaker  
-2. Acceptance of [Previous Meeting Minutes](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/blob/main/subcommittee/coding-guidelines/meetings/2026-06-03/minutes.md)
+2. Acceptance of [Previous Meeting Minutes](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/blob/main/subcommittee/coding-guidelines/meetings/2026-06-03/minutes.md)  
 3. Introduction of new members  
-4. The SEI CERT Coding Standard for Fortran (David)
-  - Read more here: https://www.sei.cmu.edu/blog/the-sei-cert-coding-standard-for-fortran/
+4. The SEI CERT Coding Standard for Fortran (David)  
+- Read more here: [https://www.sei.cmu.edu/blog/the-sei-cert-coding-standard-for-fortran/](https://www.sei.cmu.edu/blog/the-sei-cert-coding-standard-for-fortran/)  
 5. Coverage of MISRA C and CERT C in 2026 (Félix / Markus updates)  
-  - MISRA C one from Markus has [merged](https://github.com/rustfoundation/safety-critical-rust-coding-guidelines/pull/432)
-  - CERT C one from Oreste has [also merged](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/pull/582)
-    - Live now at: https://coding-guidelines.arewesafetycriticalyet.org/appendices/standards-matrices/index.html
-    - Félix opened an [issue](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/585) to track usability improvements in the appendices that's up for grabs
-    - Pete will now mine these appendices for creating issues for contributors
-6. Interest in the MISRA C++ mapping (mira / Pete)
-  - Updates on new things in the MISRA C++ => Rust mapping
-  - In talks with MISRA folks still; but in practice the procedure outlined seemed reasonable to them
-  - Please register interest on [this Zulip thread](https://rust-lang.zulipchat.com/#narrow/channel/579369-safety-critical-consortium.2Fcoding-guidelines/topic/MISRA.20C.2B.2B.20Mapping.20Interest/with/584764785)  
-7. Review batches for [CERT C  Rust Mapping](https://github.com/rustfoundation/safety-critical-rust-coding-guidelines/issues/336) (Pete)  
-- Let's split up again, to get some feedback on batch 2  
-- [428 \[CERT C Review Batch 2/5\] Review proposed Rust categorization](https://github.com/rustfoundation/safety-critical-rust-coding-guidelines/issues/428)  
-- **Group A**  
-    1. xx
-    2. xx
-    3. xx
-    4. xx
-- **Group B**  
-    1. xx
-    2. xx
-    3. xx
-    4. xx
-    5. xx
-8. Round table
+- MISRA C one from Markus has [merged](https://github.com/rustfoundation/safety-critical-rust-coding-guidelines/pull/432)  
+- CERT C one from Oreste has [also merged](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/pull/582)  
+  - Live now at: [https://coding-guidelines.arewesafetycriticalyet.org/appendices/standards-matrices/index.html](https://coding-guidelines.arewesafetycriticalyet.org/appendices/standards-matrices/index.html)  
+  - Félix opened an [issue](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/585) to track usability improvements in the appendices that's up for grabs  
+  - Pete will now mine these appendices for creating issues for contributors  
+6. Interest in the MISRA C++ mapping (mira / Pete)  
+- Updates on new things in the MISRA C++ \=\> Rust mapping  
+- In talks with MISRA folks still; but in practice the procedure outlined seemed reasonable to them  
+- Please register interest on [this Zulip thread](https://rust-lang.zulipchat.com/#narrow/channel/579369-safety-critical-consortium.2Fcoding-guidelines/topic/MISRA.20C.2B.2B.20Mapping.20Interest/with/584764785)  
+7. Round table
 
 ## **Check-in area**
 
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
+- David Svoboda (-:  
+- Max Jacinto 📚  
+- Kaneko Satoshi 🫥  
+- Mira Baumann  
+- Pete LeVasseur 💯  
+- Oreste Bernardi 🧠  
+- Markus Hosch
 
 **Notetaker:**
 
-- xx
+- David Svoboda
 
 For tips on how we take notes in the Safety-Critical Rust Consortium, please see the [Meeting Notetaker Role](https://github.com/rustfoundation/safety-critical-rust-consortium/blob/main/docs/notetaker-role.md) doc.
 
@@ -76,7 +57,42 @@ For tips on how we take notes in the Safety-Critical Rust Consortium, please see
 
 ## **Meeting Minutes**
 
-- xx
+- Acceptance of [Previous Meeting Minutes](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/blob/main/subcommittee/coding-guidelines/meetings/2026-06-03/minutes.md): Accepted  
+- Introduction of new members  
+- The SEI CERT Coding Standard for Fortran (David)  
+- Read more here: [https://www.sei.cmu.edu/blog/the-sei-cert-coding-standard-for-fortran/](https://www.sei.cmu.edu/blog/the-sei-cert-coding-standard-for-fortran/)  
+- Standards published for almost 20 years 🎉  
+- Fortran is new and still has some areas of improvement  
+  1. Rules: What to follow that are specific and should be followed  
+  2. Recommendations: Things you can violate if you’re careful  
+- [TYP02-F. Prohibit implicit typing in all program units](https://cmu-sei.github.io/secure-coding-standards/sei-cert-fortran-coding-standard/types-typ/typ02-f)  
+  1. Kind of odd; don’t have to declare before usage  
+  2. If you just start using a variable, the letter that this variable name begins with determines its type  
+  3. Recommended to, for all variables explicitly declare types of them  
+- CERT C has on the order of \~200+ total rules and recommendations, so call to action for if anyone else would like   
+6. Coverage of MISRA C and CERT C in 2026 (Félix / Markus updates)  
+- MISRA C one from Markus has [merged](https://github.com/rustfoundation/safety-critical-rust-coding-guidelines/pull/432)  
+- CERT C one from Oreste has [also merged](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/pull/582)  
+  - Live now at: [https://coding-guidelines.arewesafetycriticalyet.org/appendices/standards-matrices/index.html](https://coding-guidelines.arewesafetycriticalyet.org/appendices/standards-matrices/index.html)  
+  - Félix opened an [issue](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/585) to track usability improvements in the appendices that's up for grabs  
+  - Pete will now mine these appendices for creating issues for contributors  
+  - Oreste: Items marked as ‘maybe’ are applicable to Rust. Formatting is a bit strange.   
+  - Pete: Will you create a new issue with whatever you consider needs still to be done?  
+  - Oreste: OK  
+7. Interest in the MISRA C++ mapping (mira / Pete)  
+- Updates on new things in the MISRA C++ \=\> Rust mapping  
+- In talks with MISRA folks still; but in practice the procedure outlined seemed reasonable to them  
+- Please register interest on [this Zulip thread](https://rust-lang.zulipchat.com/#narrow/channel/579369-safety-critical-consortium.2Fcoding-guidelines/topic/MISRA.20C.2B.2B.20Mapping.20Interest/with/584764785)  
+- Mira: Most missing stuff is about inheritance. Would like review. Also lots of items about the standard library.   
+- David: Difficult because MISRA C++ is not free.  
+- Mira: Yes. I had to buy it.  
+- Markus: Applicability of inheritance to Rust. Traits do have inheritance.  
+- Mira: MISRA C++ was mostly about virtual inheritance. Also it has very little rules about templates.  
+- Markus: It is good to think about how rules would apply in alternate technologies.   
+- Pete: I have enlisted a MISRA C++ member to help out.  
+8. Review batches for [CERT C  Rust Mapping](https://github.com/rustfoundation/safety-critical-rust-coding-guidelines/issues/336) (Pete) (tabled)  
+9. Round table  
+- 
 
 ## **Material**
 
