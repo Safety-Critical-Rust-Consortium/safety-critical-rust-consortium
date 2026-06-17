@@ -13,25 +13,26 @@
 1. Solicitation of notetaker
 2. Acceptance of [Previous Meeting Minutes](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/blob/main/subcommittee/coding-guidelines/meetings/2026-06-10/minutes.md)
 3. Introduction of new members
-4. Discuss possible 2-3 coding guidelines to choose for Clippy lints
+4. Solicit availability for RustConf 2026 SCRC Room
+  - Please put availability on this [LettuceMeet](https://lettucemeet.com/l/oYlvM)
+5. Discuss possible 2-3 coding guidelines to choose for Clippy lints
   - Picking "decidable" ones probably good
   - Let's look here: https://coding-guidelines.arewesafetycriticalyet.org/coding-guidelines/expressions/index.html
-5. First version of MISRA C + CERT C Appendices [live](https://coding-guidelines.arewesafetycriticalyet.org/appendices/standards-matrices/index.html)
+6. First version of MISRA C + CERT C Appendices [live](https://coding-guidelines.arewesafetycriticalyet.org/appendices/standards-matrices/index.html)
   - Pete will now mine these appendices for creating issues for contributors  
-6. Liaison White Paper Solicitation (Alex)
-7. Interest in the MISRA C++ mapping (mira / Pete)  
+7. Liaison White Paper Solicitation (Alex)
+8. Interest in the MISRA C++ mapping (mira / Pete)  
   - Updates on new things in the MISRA C++ \=\> Rust mapping  
   - In talks with MISRA folks still; but in practice the procedure outlined seemed reasonable to them  
   - Please register interest on [this Zulip thread](https://rust-lang.zulipchat.com/#narrow/channel/579369-safety-critical-consortium.2Fcoding-guidelines/topic/MISRA.20C.2B.2B.20Mapping.20Interest/with/584764785)  
-8. Review batches for [CERT C  Rust Mapping](https://github.com/rustfoundation/safety-critical-rust-coding-guidelines/issues/336) (Pete)  
+9. Review batches for [CERT C  Rust Mapping](https://github.com/rustfoundation/safety-critical-rust-coding-guidelines/issues/336) (Pete)  
   - Let's split up again, to get some feedback on batch 2  
   - [428 \[CERT C Review Batch 2/5\] Review proposed Rust categorization](https://github.com/rustfoundation/safety-critical-rust-coding-guidelines/issues/428)  
   - **Group A**  
     - xx
-    - xx
 - **Group B**  
     - xx
-7. Round table
+10. Round table
 
 ## **Check-in area**
 
