@@ -12,7 +12,7 @@
       {
         "name": "DO-178C",
         "levels": ["DAL E", "DAL D", "DAL C", "DAL B", "DAL A"],
-        "description": "Software Considerations in Airborne Systems and Equipment Certification"
+        "description": "Software Considerations in Airborne Systems and Equipment Certification. Note that tool qualification is covered by DO-330, which we don't track separately here."
       },
       {
         "name": "IEC 62304",
