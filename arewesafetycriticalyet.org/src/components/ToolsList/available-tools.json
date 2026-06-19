@@ -28,6 +28,11 @@
         "name": "EN 50128",
         "levels": ["SIL 1", "SIL 2", "SIL 3", "SIL 4"],
         "description": "Railway applications - Communication, signalling and processing systems - Software for railway control and protection systems"
+      },
+      {
+        "name": "EN 50716",
+        "levels": ["SIL 1", "SIL 2", "SIL 3", "SIL 4"],
+        "description": "Railway Applications - Requirements for software development. This supersedes EN 50128."
       }
     ]
   },
