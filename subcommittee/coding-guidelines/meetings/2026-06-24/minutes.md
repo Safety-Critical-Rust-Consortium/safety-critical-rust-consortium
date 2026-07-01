@@ -47,9 +47,6 @@
 
 ## **Check-in area**
 
-- xx  
-- xx  
-- xx  
 - Mira Baumann 🤧  
 - Michael Henn 🥵  
 - Julius Gustavsson  
@@ -60,8 +57,6 @@
 - Christof Petig 🌡️  
 - Kangwon Lee  ✈️  
 - Andreas Weis 🥵  
-- xx  
-- xx
 
 **Notetaker:**
 
