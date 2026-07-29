@@ -13,7 +13,12 @@
 1. Solicitation of notetaker
 2. Acceptance of [Previous Meeting Minutes](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/blob/main/subcommittee/coding-guidelines/meetings/2026-07-22/minutes.md)
 3. Introduction of new members
-4. Working session: review progress on the MISRA C++:2023 to Rust coding guidelines mapping (Mira / Pete)
+4. Review [PR #1227: refine pointer conversion guidance](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/pull/1227) (Pete)
+   - Context: [PR #1228](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/pull/1228) updated the FLS lock; PR #1227 is now a documentation-only follow-up
+   - Review focus: pointer provenance wording, conversion-rule ownership, the focused function-pointer rule, and partial standards-matrix coverage
+   - Goal: agree on the guideline split, the new rule's required category, the MISRA C:2025 R.11.1 partial mapping, and any category follow-up work
+   - [Deploy preview](https://deploy-preview-1227--scrc-coding-guidelines.netlify.app)
+5. Working session: review progress on the MISRA C++:2023 to Rust coding guidelines mapping (Mira / Pete)
    - Parent tracking issue: [#575 Mapping for MISRA C++:2023 to Rust Guidelines](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/575)
    - Initial documentation PR: [#1226 Add the MISRA C++ mapping](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/pull/1226)
    - [Working spreadsheet](https://docs.google.com/spreadsheets/d/12e9Tr8PUTvVr87nUH0MQTwL31yU6YihQVxlvkqlo9SA/edit?gid=0#gid=0), currently reporting 179/179 guidelines analyzed
@@ -29,7 +34,7 @@
      - Google Meet: xx
      - Group:
        1. xx
-5. Round table
+6. Round table
 
 ## **Check-in area**
 
