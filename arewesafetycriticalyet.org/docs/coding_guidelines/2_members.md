@@ -75,4 +75,5 @@
 | Marcos Borges, PhD         | Individual                             | Producer                    | @MarcosBorgesPhD   |
 | Stefan Akatyschew          | Individual                             | Producer                    | @fried-gluttony    |
 | Jeongsoo Lee               | GitHub                                 | Observer                    | @jeongsoolee09     |
+| Mark Hermeling             | AdaCore                                | Observer                    | @markhermeling     |
 
