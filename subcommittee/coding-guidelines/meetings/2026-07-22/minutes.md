@@ -10,53 +10,48 @@
 
 ## **Agenda**
 
-1. Solicitation of notetaker
-2. Acceptance of [Previous Meeting Minutes](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/blob/main/subcommittee/coding-guidelines/meetings/2026-07-15/minutes.md)
-3. Introduction of new members
-4. Interest in the MISRA C++ mapping (Mira / Pete)
-   - Updates on new things in the MISRA C++ => Rust mapping
-   - In talks with MISRA folks still; but in practice the procedure outlined seemed reasonable to them
-   - Please register interest on [this Zulip thread](https://rust-lang.zulipchat.com/#narrow/channel/579369-safety-critical-consortium.2Fcoding-guidelines/topic/MISRA.20C.2B.2B.20Mapping.20Interest/with/584764785)
-5. Working session: resolve outstanding feedback on the [CERT C to Rust coding guidelines mapping](https://coding-guidelines.arewesafetycriticalyet.org/appendices/standards-matrices/cert-c-2016-mapping.html)
-   - Parent tracking issue: [#336 Mapping of CERT C to Rust Guidelines](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/336)
-   - Three mappings remain to review in [review batch 2/5](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/428):
-     - [FIO44: Only use values for `fsetpos()` that are returned from `fgetpos()`](https://wiki.sei.cmu.edu/confluence/display/c/FIO44-C.+Only+use+values+for+fsetpos%28%29+that+are+returned+from+fgetpos%28%29)
-     - [MSC37: Ensure that control never reaches the end of a non-void function](https://wiki.sei.cmu.edu/confluence/display/c/MSC37-C.+Ensure+that+control+never+reaches+the+end+of+a+non-void+function)
-     - [INT30: Ensure that unsigned integer operations do not wrap](https://wiki.sei.cmu.edu/confluence/display/c/INT30-C.+Ensure+that+unsigned+integer+operations+do+not+wrap)
-   - Goal: confirm or revise each proposed Rust categorization and record the result in the batch issue
-6. Working session: close out the CERT C mapping review
-   - Review outcomes across all five batches for mapping changes and follow-up actions: [1/5](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/427), [2/5](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/428), [3/5](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/429), [4/5](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/430), and [5/5](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/431)
-   - Capture follow-up guideline work surfaced during review, including the [FIO34 and FIO39 discussions](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/428#issuecomment-4982470186)
-   - Prepare a final review summary on the parent tracking issue and identify owners for follow-up work
+1. Solicitation of notetaker  
+2. Acceptance of [Previous Meeting Minutes](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/blob/main/subcommittee/coding-guidelines/meetings/2026-07-15/minutes.md)  
+3. Introduction of new members  
+4. Interest in the MISRA C++ mapping (Mira / Pete)  
+   - Updates on new things in the MISRA C++ \=\> Rust mapping  
+   - In talks with MISRA folks still; but in practice the procedure outlined seemed reasonable to them  
+   - Please register interest on [this Zulip thread](https://rust-lang.zulipchat.com/#narrow/channel/579369-safety-critical-consortium.2Fcoding-guidelines/topic/MISRA.20C.2B.2B.20Mapping.20Interest/with/584764785)  
+5. Working session: resolve outstanding feedback on the [CERT C to Rust coding guidelines mapping](https://coding-guidelines.arewesafetycriticalyet.org/appendices/standards-matrices/cert-c-2016-mapping.html)  
+   - Parent tracking issue: [\#336 Mapping of CERT C to Rust Guidelines](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/336)  
+   - Three mappings remain to review in [review batch 2/5](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/428):  
+     - [FIO44: Only use values for `fsetpos()` that are returned from `fgetpos()`](https://wiki.sei.cmu.edu/confluence/display/c/FIO44-C.+Only+use+values+for+fsetpos%28%29+that+are+returned+from+fgetpos%28%29)  
+     - [MSC37: Ensure that control never reaches the end of a non-void function](https://wiki.sei.cmu.edu/confluence/display/c/MSC37-C.+Ensure+that+control+never+reaches+the+end+of+a+non-void+function)  
+     - [INT30: Ensure that unsigned integer operations do not wrap](https://wiki.sei.cmu.edu/confluence/display/c/INT30-C.+Ensure+that+unsigned+integer+operations+do+not+wrap)  
+   - Goal: confirm or revise each proposed Rust categorization and record the result in the batch issue  
+6. Working session: close out the CERT C mapping review  
+   - Review outcomes across all five batches for mapping changes and follow-up actions: [1/5](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/427), [2/5](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/428), [3/5](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/429), [4/5](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/430), and [5/5](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/431)  
+   - Capture follow-up guideline work surfaced during review, including the [FIO34 and FIO39 discussions](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/428#issuecomment-4982470186)  
+   - Prepare a final review summary on the parent tracking issue and identify owners for follow-up work  
+   - Getting started and working as far as feasible is totally fine; let’s record how far in the main tracking issue: [https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/336](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/336)  
 7. Round table
 
 ## **Check-in area**
 
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
+- Daniel Dia 🎂  
+- Markus Hosch 🚴  
+- Christof Petig ⌨️  
+- Samuel Wright 🥱  
+- William Barsse  
+- Max Jacinto 🧹
 
 **Notetaker:**
 
-- xx
+- Markus Hosch
 
 For tips on how we take notes in the Safety-Critical Rust Consortium, please see the [Meeting Notetaker Role](https://github.com/rustfoundation/safety-critical-rust-consortium/blob/main/docs/notetaker-role.md) doc.
 
 ## **Housekeeping section**
 
-- Document space: [coding-guidelines](https://github.com/rustfoundation/safety-critical-rust-consortium/tree/main/subcommittee/coding-guidelines)
-- Zulip: [safety-critical-consortium: Coding Guidelines](https://rust-lang.zulipchat.com/#narrow/channel/445688-safety-critical-consortium/topic/Coding.20Guidelines)
-- [Kanban board](https://github.com/orgs/rustfoundation/projects/1/views/3)
-  - [`contributor experience`](https://github.com/orgs/rustfoundation/projects/1/views/4) view
+- Document space: [coding-guidelines](https://github.com/rustfoundation/safety-critical-rust-consortium/tree/main/subcommittee/coding-guidelines)  
+- Zulip: [safety-critical-consortium: Coding Guidelines](https://rust-lang.zulipchat.com/#narrow/channel/445688-safety-critical-consortium/topic/Coding.20Guidelines)  
+- [Kanban board](https://github.com/orgs/rustfoundation/projects/1/views/3)  
+  - [`contributor experience`](https://github.com/orgs/rustfoundation/projects/1/views/4) view  
   - [`coding guideline`](https://github.com/orgs/rustfoundation/projects/1/views/5) view
 
 ## **Tasks**
@@ -65,7 +60,17 @@ For tips on how we take notes in the Safety-Critical Rust Consortium, please see
 
 ## **Meeting Minutes**
 
-- xx
+2\. Previous meeting minutes accepted  
+3\. No new members  
+4\. No updates, pointer towards Zulip thread  
+5\. Discussed the remaining 3 rules: [https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/428\#issuecomment-5048017889](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/428#issuecomment-5048017889)   
+6\.  
+Next steps added to parent issue.  
+Discussion: Would we want to have an extra rule that forbids using std C functions? Probably yes, because e.g. FIO34 is categorized as “does not apply to Rust at all”. However, you CAN call it, so it sort of does apply to unsafe Rust. No consensus in the meeting → Created [https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/1222](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/1222)   
+Discussion about simultaneous read / write (FIO39). Created [https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/1223](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/1223) to discuss interleaving reads & writes.  
+7\. Round table:  
+Any updates to the clippy lints? Nope.  
+New lints for rules that aren’t covered? Def. for the decidable ones. Open whether we also want to lint undecidable ones, even though there are false positives and/or false negatives.
 
 ## **Material**
 
@@ -73,7 +78,7 @@ Any material to read before the meeting should be included here.
 
 Overview of [Safety-Critical Rust](https://rust-lang.github.io/rust-project-goals/2026/roadmap-safety-critical-rust.html) Rust Project Goals Roadmap (Pete)
 
-- Soliciting those interested in [Normative Documentation for Sound unsafe Rust](https://rust-lang.github.io/rust-project-goals/2026/safe-unsafe-for-safety-critical.html) goal
-  - Register interest [here](https://rust-lang.zulipchat.com/#narrow/channel/445688-safety-critical-consortium/topic/SCRC.20.3C.3D.3E.20t-opsem.3A.20Normative.20Documentation.20for.20Sound.20.60unsafe.60/with/586198564) on Rust Zulip
-- Soliciting those interested in [Establish a Spot for Safety-Critical Lints in Clippy](https://rust-lang.github.io/rust-project-goals/2026/safety-critical-lints-in-clippy.html) goal
+- Soliciting those interested in [Normative Documentation for Sound unsafe Rust](https://rust-lang.github.io/rust-project-goals/2026/safe-unsafe-for-safety-critical.html) goal  
+  - Register interest [here](https://rust-lang.zulipchat.com/#narrow/channel/445688-safety-critical-consortium/topic/SCRC.20.3C.3D.3E.20t-opsem.3A.20Normative.20Documentation.20for.20Sound.20.60unsafe.60/with/586198564) on Rust Zulip  
+- Soliciting those interested in [Establish a Spot for Safety-Critical Lints in Clippy](https://rust-lang.github.io/rust-project-goals/2026/safety-critical-lints-in-clippy.html) goal  
   - Register interest [here](https://rust-lang.zulipchat.com/#narrow/channel/445688-safety-critical-consortium/topic/Getting.20involved.20with.20Clippy.20for.20SCRC.20lints/with/583090116) on Rust Zulip
