@@ -19,13 +19,13 @@
    - [Working spreadsheet](https://docs.google.com/spreadsheets/d/12e9Tr8PUTvVr87nUH0MQTwL31yU6YihQVxlvkqlo9SA/edit?gid=0#gid=0), currently reporting 179/179 guidelines analyzed
    - Reference: [MathWorks listing of MISRA C++:2023 rules and directives](https://www.mathworks.com/help/bugfinder/misra-cpp-2023-rules-and-directives.html)
    - Goal: review the initial mapping, resolve remaining discussions, and capture decisions and follow-up work in the tracking issue and PR
-   - **Group A**
-     - Scope: xx
+   - **Group A - language validity, linkage, lifetimes, and conversions**
+     - Scope (15 mappings): Rules 4.1.1, 4.1.2, 4.1.3, 6.0.3, 6.4.2, 6.7.1, 6.7.2, 6.8.1, 6.8.2, 6.8.3, 6.8.4, 7.0.1, 7.0.2, 7.0.4, and 8.1.2
      - Google Meet: xx
      - Group:
        1. xx
-   - **Group B**
-     - Scope: xx
+   - **Group B - casts, pointer operations, and expression behavior**
+     - Scope (15 mappings): Rules 8.2.1, 8.2.2, 8.2.3, 8.2.4, 8.2.5, 8.2.6, 8.2.7, 8.2.8, 8.2.10, 8.2.11, 8.7.1, 8.7.2, 8.9.1, 8.18.1, and 8.20.1
      - Google Meet: xx
      - Group:
        1. xx
