@@ -10,8 +10,8 @@ jobs:
     name: Add membership issue to project
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/add-to-project@v1.0.2
+      - uses: actions/add-to-project@v2.0.0
         with:
-          project-url: https://github.com/orgs/rustfoundation/projects/2
+          project-url: https://github.com/orgs/Safety-Critical-Rust-Consortium/projects/5
           github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
           labeled: "membership application"
