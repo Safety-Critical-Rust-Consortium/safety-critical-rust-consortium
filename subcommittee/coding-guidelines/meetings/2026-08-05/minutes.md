@@ -56,8 +56,6 @@
 - Pete LeVasseur 🏃  
 - Mira Baumann 🎃  
 - Jeongsoo Lee 🚀  
-- xx  
-- xx
 
 **Notetaker:**
 
