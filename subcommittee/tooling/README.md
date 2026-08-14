@@ -14,20 +14,16 @@ Tooling was one of the high interest topics that we have discussed, so the membe
 
 ## Subcommittee Mission Statement
 
-A community-vetted minimal required tooling package to be able to certify Rust in safety-critical applications.
-A document with a list of the minimal required tools and their development status. A possible curricula used for training in safety critical Rust (this is still to be determined of we need a different subcommittee for it).
-
-Please see further details in our [mission statement](mission-statement.md).
+Please see further details in our mission statement on [arewesafetycriticalyet.org/tooling/statement](https://arewesafetycriticalyet.org/tooling/statement).
 
 ## Members and Membership
 
-Please find the list of members [here](members.md).
-
-The Safety-Critical Rust Consortium is still working through what this process is. Please check back soon.
+See section [Subcommittee Membership](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium#subcommittee-membership) in the main README.md.
 
 ## Meetings
 
-We are still sorting out meeting scheduling and frequency. Please check back soon.
+Meetings are currently held every two weeks on Fridays at 17:00 (GMT+2) to 12:00 (EDT).
+You should receive meeting invitations once you have joined the subcommittee.
 
 ## Where to find us ✉️
 
