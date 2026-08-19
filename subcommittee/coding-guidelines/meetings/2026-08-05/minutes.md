@@ -28,7 +28,6 @@
    - Goal: confirm or revise each proposed Rust categorization and capture decisions and follow-up work in the tracking issue and PR  
    - **Group A \- expressions, control flow, types, and initialization**  
      - Scope (15 mappings): Rules 8.9.1, 8.14.1, 8.18.1, 8.20.1, 9.4.1, 9.4.2, 9.5.1, 10.1.1, 10.1.2, 10.2.1, 10.2.3, 10.4.1, 11.3.2, 11.6.1, and 12.3.1  
-     - [https://meet.google.com/vwj-jitq-vpe](https://meet.google.com/vwj-jitq-vpe)  
      - Group:  
        1. Max Jacinto 👔  
        2. Markus Hosch 🫥  
@@ -37,7 +36,6 @@
        5. Jeongsoo Lee 🚀  
    - **Group B \- traits, object lifecycle, panics, and macros**  
      - Scope (15 mappings): Rules 13.3.3, 13.3.4, 14.1.1, 15.0.1, and 15.1.4; Directive 15.8.1; and Rules 16.6.1, 18.1.1, 18.4.1, 18.5.1, 18.5.2, 19.0.2, 19.0.3, 19.2.1, and 19.3.4  
-     - [https://meet.google.com/xhx-yfmq-ped](https://meet.google.com/xhx-yfmq-ped)  
      - Group:  
        1. Pete LeVasseur 🏃  
        2. Oreste Bernardi 🫠  
