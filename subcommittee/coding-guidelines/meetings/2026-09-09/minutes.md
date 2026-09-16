@@ -37,12 +37,9 @@
 - Espen Albrektsen 🤖  
 - Markus Hosch 🎮  
 - Mira Baumann 💤  
-- xx  
 - William Barsse  
 - Christof Petig 🧵  
 - Oreste Bernardi  
-- xx  
-- xx
 
   **Notetaker:**
 
