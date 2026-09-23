@@ -76,4 +76,6 @@
 | Stefan Akatyschew          | Individual                             | Producer                    | @fried-gluttony    |
 | Jeongsoo Lee               | GitHub                                 | Observer                    | @jeongsoolee09     |
 | Mark Hermeling             | AdaCore                                | Observer                    | @markhermeling     |
+| Joshua Tracey              | Skylift UAV LTD                        | Producer                    | @josh-tracey       |
+| Andrew Lynch               | Ampere Computing                       | Observer                    | @alynch-ampere     |
 
