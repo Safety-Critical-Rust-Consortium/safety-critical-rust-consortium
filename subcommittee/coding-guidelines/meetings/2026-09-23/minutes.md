@@ -54,7 +54,6 @@
 * Arthur Hicken 😐  
 * Sam Wright  
 * Satoshi Kaneko  
-* Xx
 
   **Notetaker:**
 
