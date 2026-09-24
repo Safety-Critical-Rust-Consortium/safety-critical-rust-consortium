@@ -57,7 +57,7 @@
 
   **Notetaker:**
 
-- Xx 
+- David Svoboda
 
   For tips on how we take notes in the Safety-Critical Rust Consortium, please see the [Meeting Notetaker Role](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/blob/main/docs/notetaker-role.md) doc.
 
