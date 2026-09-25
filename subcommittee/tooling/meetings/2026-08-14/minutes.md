@@ -41,6 +41,7 @@
 * Jeongsoo Lee 😊  
 * Pete LeVasseur 🇨🇦  
 * Oreste Bernardi 🫠⛰️
+* Alexandru Radovici
 
  **Notetaker:**
 
