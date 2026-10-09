@@ -268,6 +268,14 @@
       "url": "https://mutest.rs/",
       "description": "Robust, efficient, safe, and parallel mutation testing tools for Rust.",
       "license": "Apache 2.0 & MIT"
+    },
+    {
+      "name": "Perforce QAC",
+      "type": "static-analysis",
+      "url": "https://www.perforce.com/products/helix-qac",
+      "vendor": "Preforce",
+      "description": "QAC is a static analysis tool for C, C++, and Rust. It provides inter-procedural dataflow, cross-file reasoning, and audit-ready evidence required for safety- and security-critical environments.",
+      "license": "commercial"
     }
   ]
 }
