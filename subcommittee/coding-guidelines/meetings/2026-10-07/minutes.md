@@ -22,15 +22,11 @@
    - *Please leave feedback inline on the relevant mapping in PR \#1226, including agreement with the proposed categorization.*  
    - **Group A \- templates, panic handling, and macros**  
      - Scope (15 mappings): Rules 17.8.1, 18.1.2, 18.3.1, 18.3.2, 18.3.3, 19.0.1, 19.0.4, 19.1.1, 19.1.2, 19.1.3, 19.2.2, 19.2.3, 19.3.1, 19.3.2, and 19.3.3  
-     - Meeting link: [https\://meet.google.com/ekk-ahed-wia](https://meet.google.com/ekk-ahed-wia)  
-     - Group: TBD  
    - **Group B \- language features, literals, and standard-library APIs**  
      - Scope (15 mappings): Rules 4.6.1 and 5.0.1; Directive 5.7.2; and Rules 5.7.3, 5.13.1, 5.13.2, 5.13.3, 5.13.4, 5.13.5, 24.5.1, 24.5.2, 26.3.1, 28.6.2, 28.6.3, and 30.0.2  
-     - Meeting link: [https\://meet.google.com/puc-cndb-mgj](https://meet.google.com/puc-cndb-mgj)  
-     - Group: TBD  
 5. Round table
 
-   ## **Check-in area**
+## **Check-in area**
 
    **Please add your name, and an emoji that describes your day.**
 
@@ -40,13 +36,6 @@
 - Espen Albrektsen ➕  
 - Achim Kriso 🦆  
 - Kangwon Lee 🤖  
-- xx  
-- xx  
-- xx  
-- xx  
-- xx  
-- xx  
-- xx
 
   **Notetaker:**
 
@@ -54,7 +43,7 @@
 
   For tips on how we take notes in the Safety-Critical Rust Consortium, please see the [Meeting Notetaker Role](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/blob/main/docs/notetaker-role.md) doc.
 
-  ## **Housekeeping section**
+## **Housekeeping section**
 
 - Document space: [coding-guidelines](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/tree/main/subcommittee/coding-guidelines)  
 - Zulip: [safety-critical-consortium: Coding Guidelines](https://rust-lang.zulipchat.com/#narrow/channel/445688-safety-critical-consortium/topic/Coding.20Guidelines)  
@@ -62,7 +51,7 @@
 - [`contributor experience` view](https://github.com/orgs/rustfoundation/projects/1/views/4)  
 - [`coding guideline` view](https://github.com/orgs/rustfoundation/projects/1/views/5)
 
-  ## **Meeting Minutes**
+## **Meeting Minutes**
 
 - Acceptance of [Previous Meeting Minutes](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/blob/main/subcommittee/coding-guidelines/meetings/2026-09-30/minutes.md)  
   - Approved  
@@ -71,9 +60,8 @@
   - We continue as single group due limited number of participants  
   - Reviewed group B  
 - Mentioned the first Rust RFC coming from safety critical group [https\://github.com/rust-lang/rfcs/pull/4014](https://github.com/rust-lang/rfcs/pull/4014)  
-- 
 
-  ## **Material**
+## **Material**
 
   Meeting-specific reading:
 
