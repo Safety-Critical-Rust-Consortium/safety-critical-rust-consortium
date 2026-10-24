@@ -36,13 +36,9 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/liaison.svg').default,
     description: (
       <>
-        The liaison subcommittee will both proactively and reactively
-        collaborate with other subcommittees in the consortium and outside
-        groups such as standards committees, the Rust Project. The committee
-        will work to drive agreement on various, potentially similar, safety
-        critical efforts pertaining to Rust. The committee will also be the
-        point of contact for any potential legal issues that may arise around IP
-        as it pertains to references, upstreaming content and more.
+        Collaborates with other consortium subcommittees and outside groups,
+        including standards committees and the Rust Project, to align related
+        safety-critical Rust efforts.
       </>
     ),
   },
