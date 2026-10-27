@@ -27,35 +27,27 @@
    - **Group A - confirm earlier review outcomes**
      - Scope (18 mappings): Rules 4.6.1 and 5.0.1; Directive 5.7.2; and Rules 5.7.3, 5.13.1, 5.13.2, 5.13.3, 5.13.4, 5.13.5, 7.0.2, 22.4.1, 24.5.1, 24.5.2, 26.3.1, 28.6.1, 28.6.2, 28.6.3, and 30.0.2.
      - Continue the review started on October 14 and record the individual outcomes inline. Review any mapping whose earlier outcome cannot be established, including Rules 22.4.1 and 28.6.1, whose review status remains uncertain.
-     - Group: TBD
    - **Group B - templates, panic handling, macros, and standard-library APIs**
      - Scope (19 mappings): Rules 17.8.1, 18.1.2, 18.3.1, 18.3.2, 18.3.3, 19.0.1, 19.0.4, 19.1.1, 19.1.2, 19.1.3, 19.2.2, 19.2.3, 19.3.1, 19.3.2, 19.3.3, 19.3.5, 19.6.1, 21.2.2, and 30.0.1.
      - No rule-specific feedback or completed review found.
-     - Group: TBD
 6. Round table
-   - Overview of remaining work toward coding guidelines v1.0 (follow-up from October 14).
+   - Overview of remaining work toward coding guidelines v0.2.0 (follow-up from October 14).
 
 ## **Check-in area**
 
 **Please add your name, and an emoji that describes your day.**
 
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
+- Pete LeVasseur ✌️
+- Samuel Wright 📅
+- Mark Hermeling (first 30 mins only)☀️
+- K Wayne Lee 🤖
+- Mira Baumann 📜
+- Oreste Bernardi
+- Achim Kriso 🦆
 
 **Notetaker:**
 
-- xx
+- Samuel Wright
 
 For tips on how we take notes in the Safety-Critical Rust Consortium, please see the [Meeting Notetaker Role](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/blob/main/docs/notetaker-role.md) doc.
 
@@ -69,7 +61,23 @@ For tips on how we take notes in the Safety-Critical Rust Consortium, please see
 
 ## **Meeting Minutes**
 
-- xx
+- Previous meeting notes accepted
+- FLS study group
+  - No longer a requirement for `main` to be up to date with the FLS, which means there is a need to regularly update the FLS lock before deployment
+  - Maybe 30-60 mins meeting once a month
+  - Examine and update affected PRs / Guidelines async
+  - todo for Pete -> post on Zulip / GitHub
+- Working session group A
+  - Some fun discussion around pending reviews and which comments are missing :-p
+- Working session group B
+  - 17.8.1 ([A modern look at specialization](https://hackmd.io/@jackh726/Hy36g4Sdfl)). Accepted (don't care about the future or unstable rust)
+  - 18.1.2 In Rust you can't have an empty through because resume_unwind takes an argument. Accepted.
+  - 18.3.1 Accepted. Remove last 2 sentences.
+  - 18.3.2 Accepted. rationale is contorting itself somewhat in the comparison to C. Simplify rationale: tl;dr panic is not sufficiently similar catch throw for this to apply.
+  - 18.3.3 Agree - see GH comment
+  - 19.0.1 Agree
+  - 19.0.4 Agree
+  - 19.1.1 Agree, suggested edits in GH
 
 ## **Material**
 
