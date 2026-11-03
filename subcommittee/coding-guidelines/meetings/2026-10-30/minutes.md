@@ -39,23 +39,14 @@
 
 **Please add your name, and an emoji that describes your day.**
 
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
+- K Wayne Lee 🤖
+- Pete LeVasseur ✌️
+- Mikhail Antoshkin 🌄
+- Yuchen Shen 🌄
 
 **Notetaker:**
 
-- xx
+- Yuchen
 
 For tips on how we take notes in the Safety-Critical Rust Consortium, please see the [Meeting Notetaker Role](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/blob/main/docs/notetaker-role.md) doc.
 
@@ -69,7 +60,14 @@ For tips on how we take notes in the Safety-Critical Rust Consortium, please see
 
 ## **Meeting Minutes**
 
-- xx
+- Reviewed the following [MISRA C++ Mappings](https://docs.google.com/spreadsheets/d/12e9Tr8PUTvVr87nUH0MQTwL31yU6YihQVxlvkqlo9SA/edit?gid=0#gid=0):
+  - 19.3.5 Rust’s behavior is defined. But further explanation is needed. Although it doesn’t lead to undefined behavior, it can definitely cause surprises and confusions. Need to reclassify.
+  - 19.6.1 The description is correct. Agree the category.
+  - 21.2.2 The mapping is not verified but probably it is correct assuming the author has taken the time to work on it. We agree with the description but better to reorganize the text so that the context is around. Maybe using comments in .rst to hide the details.
+  - 22.4.1 Agree
+  - 28.6.1 Maybe a good thing to be a rule but not directly map to the original rule. The agreement for Rust is more about the unintended copy rather than the redundant move.
+  - 30.0.1 Agree with the rationale.
+  - 30.0.2 Agree
 
 ## **Material**
 
