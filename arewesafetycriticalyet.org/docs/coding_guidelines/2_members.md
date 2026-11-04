@@ -78,4 +78,6 @@
 | Mark Hermeling             | AdaCore                                | Observer                    | @markhermeling     |
 | Joshua Tracey              | Skylift UAV LTD                        | Producer                    | @josh-tracey       |
 | Andrew Lynch               | Ampere Computing                       | Observer                    | @alynch-ampere     |
+| Mario Mottl                | in-tech (an Infosys company)            | Producer                    | @MarioMottl-in-tech |
+| Arnaud Riess               | Individual                             | Producer                    | @arnoox            |
 
