@@ -41,4 +41,11 @@ position: 2
 - Jonatan Hatakeyama Zeidler (Brainlab SE)
 - Stefan Akatyschew
 - Zalán Bálint Lévai
+- Máté János Kovács
+- Kartik Ohlan
+- Everton Oriente
+- Adam Milner (Waabi)
+- Michael Henn (Hensoldt)
+- Marcos Borges, PhD
+- Jeongsoo Lee (GitHub)
 - Alexandru Radovici (Moderator)
