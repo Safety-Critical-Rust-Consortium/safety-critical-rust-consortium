@@ -276,6 +276,36 @@
       "vendor": "Preforce",
       "description": "QAC is a static analysis tool for C, C++, and Rust. It provides inter-procedural dataflow, cross-file reasoning, and audit-ready evidence required for safety- and security-critical environments.",
       "license": "commercial"
+    },
+    {
+      "name": "GNAT DAS",
+      "type": "code-coverage",
+      "url": "https://www.adacore.com/dynamic-analysis-suite",
+      "vendor": "AdaCore",
+      "description": "GNAT DAS is the Dynamic Analysis Suite from AdaCore. It supports code coverage for Rust.",
+      "license": "commercial",
+      "qualified": [
+        {
+          "name": "ISO 26262",
+          "up-to": "ASIL D",
+          "info": "For qualification related material, contact AdaCore via https://www.adacore.com/gnat-das-contact"
+        },
+        {
+          "name": "DO-178C",
+          "up-to": "DAL A",
+          "info": "For qualification related material, contact AdaCore via https://www.adacore.com/gnat-das-contact"
+        },
+        {
+          "name": "IEC 61508",
+          "up-to": "SIL 4",
+          "info": "For qualification related material, contact AdaCore via https://www.adacore.com/gnat-das-contact"
+        },
+        {
+          "name": "EN 50128",
+          "up-to": "SIL 4",
+          "info": "For qualification related material, contact AdaCore via https://www.adacore.com/gnat-das-contact"
+        }
+      ]
     }
   ]
 }
