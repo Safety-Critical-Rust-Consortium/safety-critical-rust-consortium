@@ -1,0 +1,28 @@
+Standard,Cost (€),Where to buy,On SCRC Drive,Priority,Description,Notes,,,
+ISO 26262:2018,"1,697.71€",https://www.iso.org/publication/PUB200262.html,Yes,1 - High,Main automotive standard,Digital version and currency converted from CHF,,Total Cost,"14,568.01€"
+DO-178C,458.51€,https://my.rtca.org/productdetails?id=a1B36000001IcmqEAC,Yes,1 - High,Main aerospace standard,Digital version and currency coverted from USD,,Excluding double IEC 61508,"11,761.20€"
+DO-330,225.32€,https://my.rtca.org/productdetails?id=a1B36000001IcfkEAC,Yes,1 - High,Tool qualification addon for aerospace,Digital version and currency coverted from USD,,,
+DO-331,225.32€,https://my.rtca.org/productdetails?id=a1B36000001IcfiEAC,Yes,2 - Medium,Model-based development addon for aerospace,Digital version and currency coverted from USD,,High Prio,0.00€
+DO-332,225.32€,https://my.rtca.org/productdetails?id=a1B36000001IcfgEAC,Yes,1 - High,Memory management addon for aerospace,Digital version and currency coverted from USD,,Medium Prio,0.00€
+DO-333,225.32€,https://my.rtca.org/productdetails?id=a1B36000001IcfeEAC,Yes,2 - Medium,Formal methods addon for aerospace,Digital version and currency coverted from USD,,Low Prio,0.00€
+DO-178C Errata,0.00€,https://my.rtca.org/productdetails?id=a1B1R00000Lr0WqUAJ,Yes,1 - High,Errata for DO-178C,Digital version has no cost,,,
+DO-248C,262.02€,https://my.rtca.org/productdetails?id=a1B36000001IcjlEAC,Yes,2 - Medium,Supporting information for DO-178C and DO-278A,Digital version and currency coverted from USD,,IEC 61508 no CMV,"2,806.81€"
+IEC 62304:2006,413.46€,https://www.iso.org/standard/38421.html,Yes,1 - High,Main medical standard,Digital version and currency converted from CHF,,,
+IEC 62304 Amendment 1,320.94€,https://www.iso.org/standard/38421.html#amendment,Yes,1 - High,Amendment for medical standard,Digital version and currency converted from CHF,,,
+IEC 61508:2010 CMV,"4,772.84€",https://webstore.iec.ch/en/publication/22273,Yes,1 - High,Commented version of IEC 61508 Parts 1-7,Digital version and currency converted from CHF,,,
+IEC 61508-1:2010,413.45€,https://webstore.iec.ch/en/publication/5515,,4 - Ignore,Part 1 of IEC 61508,Digital version and currency converted from CHF,,,
+IEC 61508-2:2010,440.63€,https://webstore.iec.ch/en/publication/5516,,4 - Ignore,Part 2 of IEC 61508,Digital version and currency converted from CHF,,,
+IEC 61508-3:2010,440.63€,https://webstore.iec.ch/en/publication/5517,,4 - Ignore,Part 3 of IEC 61508,Digital version and currency converted from CHF,,,
+IEC 61508-4:2010,282.83€,https://webstore.iec.ch/en/publication/5518,,4 - Ignore,Part 4 of IEC 61508,Digital version and currency converted from CHF,,,
+IEC 61508-5:2010,320.89€,https://webstore.iec.ch/en/publication/5519,,4 - Ignore,Part 5 of IEC 61508,Digital version and currency converted from CHF,,,
+IEC 61508-6:2010,440.63€,https://webstore.iec.ch/en/publication/5520,,4 - Ignore,Part 6 of IEC 61508,Digital version and currency converted from CHF,,,
+IEC 61508-7:2010,467.75€,https://webstore.iec.ch/en/publication/5521,,4 - Ignore,Part 7 of IEC 61508,Digital version and currency converted from CHF,,,
+IEC TS 61508-3-1:2016,43.51€,https://webstore.iec.ch/en/publication/25410,Yes,2 - Medium,Technical specification for part 3-1 of IEC 61508,Digital version and currency converted from CHF,,,
+IEC TS 61508-3-2:2024,228.41€,https://webstore.iec.ch/en/publication/62902,Yes,2 - Medium,Technical specification for part 3-2 of IEC 61508,Digital version and currency converted from CHF,,,
+IEC TR 61508-3-3:2025,364.37€,https://webstore.iec.ch/en/publication/99554,Yes,2 - Medium,Technical report for part 3-3 of IEC 61508,Digital version and currency converted from CHF,,,
+BS EN 50716:2023-11-27,447.10€,https://www.dinmedia.de/de/norm/bs-en-50716/375765007,Yes,1 - High,Railway standard,Digital version in EUR,,,
+IEC 60880:2006,440.63€,https://webstore.iec.ch/en/publication/3795,,3 - Low,Nuclear power plant standard,Digital version and currency converted from CHF,,,
+IEC 61226:2020,282.79€,https://webstore.iec.ch/en/publication/26644,,3 - Low,Safety classification for nuclear power plants,Digital version and currency converted from CHF,,,
+IEC 62138:2018 RLV,619.99€,https://webstore.iec.ch/en/publication/63666,,3 - Low,Additional info for category B and C power plants,Digital version and currency converted from CHF,,,
+IEC 61513:2026,364.39€,https://webstore.iec.ch/en/publication/76309,,3 - Low,Requirements for instrumentation & control of power plants,Digital version and currency converted from CHF,,,
+JA1020_202603,143.25€,https://www.sae.org/standards/ja1020_202603-safety-cybersecurity-recommendations-use-rust-language-critical-systems,Yes,1 - High,Safety and Cybersecurity Recommendations for Rust,Digital version and currency coverted from USD,,,
