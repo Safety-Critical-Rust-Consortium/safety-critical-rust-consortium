@@ -1,4 +1,4 @@
-# Tooling Subcommittee Meeting on 5 November \`2026 @ 4pm GMT
+# Tooling Subcommittee Meeting on  6 November \`2026 @ 4pm GMT
 
 | Search Key | Description |
 | :---- | :---- |
