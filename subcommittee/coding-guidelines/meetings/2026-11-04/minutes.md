@@ -45,12 +45,6 @@
 - Mark Hermeling (first 30 mins only) 😎
 - Achim Kriso 🦆
 - Arthur Hicken
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
 
 **Notetaker:**
 
@@ -73,7 +67,7 @@ For tips on how we take notes in the Safety-Critical Rust Consortium, please see
   - Agreement that we probably should have our own rationales at some point
   - Discussion on maybe deferring that to a later release
   - There are around 15 rules that currently defer to the MISRA C document
-  - [DECISION]: Keep them for now. Try to write our own rationales for them, but do the release even if the new rationale hasn’t been written yet
+  - [decision]: Keep them for now. Try to write our own rationales for them, but do the release even if the new rationale hasn’t been written yet
   - looking at those 15 to make sure the C++ and C rules are equivalent
 
 ## **Material**
