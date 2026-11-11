@@ -15,7 +15,7 @@
 3. Introduction of new members
 4. Mira: changes made during the MISRA C++ mapping review
    - Mira will walk through the main changes she’s made in [PR #1226](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/pull/1226) since we started reviewing the mapping.
-   - This includes classification changes, FFI scope, and revised Rust rationales, with room for questions about the reasoning behind the changes.
+   - This includes classification changes, FFI scope, and revised Rust rationales, with room for discussion on how our feedback has landed.
 5. FLS study group
    - Update on availability in the LettuceMeet linked in the [Zulip discussion](https://rust-lang.zulipchat.com/#narrow/channel/579369-safety-critical-consortium.2Fcoding-guidelines/topic/FLS.20Study.20Group.20-.20updating.20guidelines/with/634982556) and scheduling the first session.
 6. Working session: close out the MISRA C++:2023 to Rust mapping review
