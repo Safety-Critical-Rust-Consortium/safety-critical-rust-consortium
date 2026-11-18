@@ -1,0 +1,90 @@
+name: Standards Library Access
+description: Request read-only access to the safety standards purchased by the Rust Foundation for the consortium
+title: Standards Library Access Request for [NAME]
+labels: ["standards access request"]
+assignees:
+  - PLeVasseur
+  - alexandruradovici
+body:
+  - type: markdown
+    attributes:
+      value: |
+        NOTE: IF YOU ARE NOT YET A MEMBER OF THE SAFETY CRITICAL RUST CONSORTIUM, PLEASE [APPLY FOR MEMBERSHIP FIRST](https://github.com/rustfoundation/safety-critical-rust-consortium?tab=readme-ov-file#consortium-membership) BEFORE FILLING OUT THIS FORM.
+
+        The Rust Foundation has purchased a set of safety standards (ISO 26262, DO-178C, IEC 61508, IEC 62304, EN 50716 and others) for the consortium. The full list is on the [Standards Library](https://github.com/rustfoundation/safety-critical-rust-consortium/blob/main/arewesafetycriticalyet.org/docs/main/standards-library.md) page.
+
+        Access is:
+        - available to **consortium members only**;
+        - **read-only**: the documents can be viewed online but **must not be downloaded, printed, copied or redistributed**, as required by the license terms of the standards publishers.
+
+        > Note that the name, email address, and any company you provide will be public since GitHub issues are public. We do not use your information for any reason other than for granting access to the standards.
+  - type: dropdown
+    id: current-consortium-member
+    attributes:
+      label: Are you already a member of the Safety Critical Rust Consortium?
+      description: Access is granted to consortium members only.
+      options:
+        - 'Yes'
+        - 'No'
+      default: 1
+    validations:
+      required: true
+  - type: input
+    id: membership-issue
+    attributes:
+      label: Link to your consortium membership application issue
+      description: For example https://github.com/rustfoundation/safety-critical-rust-consortium/issues/123
+    validations:
+      required: false
+  - type: input
+    id: name
+    attributes:
+      label: What is your name?
+    validations:
+      required: true
+  - type: input
+    id: organization
+    attributes:
+      label: What company, institution or other entity do you represent?
+      description: Write "Individual" if you are participating on your own behalf.
+    validations:
+      required: true
+  - type: input
+    id: email
+    attributes:
+      label: Email address to grant access to
+      description: The shared drive is shared with this email address. It must be able to sign in to Google Drive (a Google account or Google Workspace address).
+    validations:
+      required: true
+  - type: dropdown
+    id: standards
+    attributes:
+      label: Which standards do you need access to?
+      multiple: true
+      options:
+        - All
+        - Automotive (ISO 26262, SAE JA1020)
+        - Aerospace (DO-178C, DO-248C, DO-330, DO-331, DO-332, DO-333)
+        - Industrial (IEC 61508 and its Part 3 supplements)
+        - Medical (IEC 62304 and Amendment 1)
+        - Railway (EN 50716)
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: What consortium work do you need the standards for?
+      description: For example, a coding guideline, a tooling or gap analysis, or liaison work.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Terms of use
+      options:
+        - label: I will only view the standards online and will not download, print, copy, share or redistribute them, in whole or in part.
+          required: true
+        - label: I will use the standards only for Safety Critical Rust Consortium work.
+          required: true
+        - label: I understand that my access will be removed when I am no longer a member of the consortium.
+          required: true
