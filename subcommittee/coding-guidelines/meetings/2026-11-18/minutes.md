@@ -11,7 +11,7 @@
 ## **Agenda**
 
 1. Solicitation of notetaker
-2. Acceptance of [Previous Meeting Minutes](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/pull/779)
+2. Acceptance of [Previous Meeting Minutes](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/blob/main/subcommittee/coding-guidelines/meetings/2026-11-11/minutes.md)
 3. Introduction of new members
 4. MISRA C++ mapping release update and celebration
    - Celebrate [PR #1226](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/pull/1226) landing in the release, then note any immediate follow-up.
@@ -66,7 +66,7 @@ For tips on how we take notes in the Safety-Critical Rust Consortium, please see
 
 Meeting-specific reading:
 
-- [Previous meeting agenda and minutes PR #779](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/pull/779)
+- [November 11 meeting minutes](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/blob/main/subcommittee/coding-guidelines/meetings/2026-11-11/minutes.md)
 - [MISRA C++ mapping PR #1226](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/pull/1226)
 - [#1255 Questions left from the mapping review](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/1255)
 - [#1256 FFI scope in the standards mappings](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/1256)
