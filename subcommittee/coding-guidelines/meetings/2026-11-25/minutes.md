@@ -11,7 +11,7 @@
 ## **Agenda**
 
 1. Solicitation of notetaker
-2. Acceptance of [Previous Meeting Agenda](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/pull/782)
+2. Acceptance of [Previous Meeting Minutes](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/blob/main/subcommittee/coding-guidelines/meetings/2026-11-18/minutes.md)
 3. Introduction of new members
 4. Follow-up from the MISRA C++ mapping review
    - Continue [#1255](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/1255), focusing on the new Directive 0.3.2 work:
@@ -65,7 +65,7 @@ For tips on how we take notes in the Safety-Critical Rust Consortium, please see
 
 Meeting-specific reading:
 
-- [Previous meeting agenda PR #782](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/pull/782)
+- [November 18 meeting minutes](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-consortium/blob/main/subcommittee/coding-guidelines/meetings/2026-11-18/minutes.md)
 - [MISRA C++ mapping PR #1226](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/pull/1226)
 - [#1255 Questions left from the mapping review](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/1255)
 - [#1264 Unsafe functions and soundness](https://github.com/Safety-Critical-Rust-Consortium/safety-critical-rust-coding-guidelines/issues/1264)
