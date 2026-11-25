@@ -38,13 +38,6 @@
 - Jeongsoo Lee :D
 - Mira Baumann 🧭
 - Max Jacinto 🫠
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
-- xx
 
 **Notetaker:**
 
