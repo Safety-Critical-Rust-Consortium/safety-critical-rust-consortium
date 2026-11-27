@@ -124,6 +124,11 @@ const config: Config = {
           label: 'Liaison',
         },
         {
+          to: '/docs/standards-library',
+          label: 'Standards Library',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/rustfoundation/safety-critical-rust-consortium',
           label: 'GitHub',
           position: 'right',
